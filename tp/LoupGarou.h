@@ -12,7 +12,7 @@ typedef struct
     int vivant; // 1 = vivant 0 = mort
 } Joueur;
 
-int menu();
+int menu1();
 int menu2();
 void ajout_joueur(Joueur tab[], int *nb);
 void role(Joueur tab[], int *nb);
